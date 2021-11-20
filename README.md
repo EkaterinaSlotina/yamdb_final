@@ -47,5 +47,5 @@ docker-compose exec web python manage.py createsuperuser
 docker-compose exec web python manage.py collectstatic --no-input
 ```
 ### Workflow status
-![yamdb_final workflow](https://github.com/EkaterinaSlotina/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg)
+![yamdb_final workflow](https://github.com/EkaterinaSlotina/yamdb_final/actions/workflows/yamdb_workflow.yaml/badge.svg)
 Author: Ekaterina Slotina
