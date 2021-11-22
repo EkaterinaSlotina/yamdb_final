@@ -57,7 +57,6 @@ jobs:
        username: ${{ secrets.USER }}
        key: ${{ secrets.SSH_KEY }}
        secret_key: ${{ secrets.SECRET_KEY }}
-       username:  ${{ secrets.DOCKER_USERNAME }}
        script: |
           sudo docker pull katemarenova/yamdb
           sudo docker-compose stop
