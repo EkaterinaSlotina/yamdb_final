@@ -59,7 +59,7 @@ jobs:
        secret_key: ${{ secrets.SECRET_KEY }}
        username:  ${{ secrets.DOCKER_USERNAME }}
        script: |
-          sudo docker pull ${{ secrets.DOCKER_USERNAME }}/yamdb
+          sudo docker pull katemarenova/yamdb
           sudo docker-compose stop
           sudo docker-compose rm web
           touch .env 
