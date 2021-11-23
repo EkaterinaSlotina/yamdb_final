@@ -5,7 +5,6 @@ WORKDIR /code
 COPY requirements.txt .
 
 RUN pip3 install -r requirements.txt
-RUN python manage.py collectstatic --no-input
 
 COPY . .
  
